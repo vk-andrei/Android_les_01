@@ -34,15 +34,6 @@
         android:textColor="#3F3E40"
         android:textSize="20sp" />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:padding="10dp"
-        android:text="@string/button"
-        android:textColor="@color/purple_200"
-        android:textSize="14sp" />
-
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -80,7 +71,16 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:padding="10dp"
-        android:text="@string/button1"
+        android:text="To Activity 2"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
+    <Button
+        android:id="@+id/btn_to_Activity_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="To Activity 3"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="18sp" />
 

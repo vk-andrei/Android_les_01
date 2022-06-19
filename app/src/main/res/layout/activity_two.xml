@@ -123,7 +123,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:padding="10dp"
-        android:text="@string/button2"
+        android:text="To Activity 1"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="18sp" />
 </LinearLayout>
