@@ -2,7 +2,9 @@
     <string name="app_name">App_task_01</string>
     <string name="goodbye_geek">Goodbye GeekBrains!</string>
     <string name="input_your_text">Input your text!</string>
-    <string name="button1">BUTTON 1</string>
+    <string name="button">BUTTON</string>
+    <string name="button1">to activity 2</string>
+    <string name="button2">to activity 1</string>
     <string name="switch1">SWITCH 1</string>
     <string name="checkBox1">CHECKBOX 1</string>
     <string name="togglebutton">TOGGLEBUTTON</string>

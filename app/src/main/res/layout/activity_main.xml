@@ -10,17 +10,26 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:fontFamily="casual"
+        android:text="ACTIVITY ONE"
+        android:textAlignment="center"
+        android:textColor="#BA1111"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:padding="10dp"
         android:text="@string/goodbye_geek"
         android:textColor="@color/purple_200"
-        android:textSize="20sp" />
+        android:textSize="14sp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:padding="16dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
         android:text="@string/input_your_text"
         android:textColor="#3F3E40"
         android:textSize="20sp" />
@@ -29,27 +38,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:padding="16dp"
-        android:text="@string/button1"
+        android:padding="10dp"
+        android:text="@string/button"
         android:textColor="@color/purple_200"
-        android:textSize="20sp"
-                />
+        android:textSize="14sp" />
 
     <Switch
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:padding="16dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
         android:text="@string/switch1"
         android:textColor="#FF6E40"
-        android:textSize="20sp"
+        android:textSize="14sp"
         tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:padding="16dp"
+        android:layout_margin="10dp"
+        android:padding="10dp"
         android:text="@string/checkBox1"
         android:textColor="#FF4081"
         android:textSize="10sp" />
@@ -57,16 +65,23 @@
     <ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:layout_margin="10dp"
         android:checked="false"
-        android:padding="16dp"
+        android:padding="10dp"
         android:text="@string/togglebutton"
         android:textColor="@color/teal_200"
         android:textOff="Don't touch"
         android:textOn="Touch"
-        android:textSize="20sp" />
+        android:textSize="14sp" />
 
-
-
+    <Button
+        android:id="@+id/btn_to_Activity_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="@string/button1"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
 
 </LinearLayout>

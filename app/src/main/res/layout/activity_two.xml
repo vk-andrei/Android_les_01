@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="ACTIVITY TWO"
+        android:textAlignment="center"
+        android:textColor="#BA1111"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="6dp"
+        android:text="Input your text"
+        android:textSize="10sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:inputType="text"
+        android:padding="6dp"
+        android:textColor="#3F3E40"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="6dp"
+        android:text="Input Person Name"
+        android:textSize="10sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:inputType="textPersonName"
+        android:padding="6dp"
+        android:textColor="#3F3E40"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="6dp"
+        android:text="Input your phone number"
+        android:textSize="10sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:inputType="phone"
+        android:padding="6dp"
+        android:textColor="#3F3E40"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="6dp"
+        android:text="Input a number"
+        android:textSize="10sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:inputType="number"
+        android:padding="6dp"
+        android:textColor="#3F3E40"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="6dp"
+        android:text="Input password"
+        android:textSize="10sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:inputType="textPassword"
+        android:padding="6dp"
+        android:textColor="#3F3E40"
+        android:textSize="10sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:padding="6dp"
+        android:text="Input your mail"
+        android:textSize="10sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:inputType="textEmailAddress"
+        android:padding="6dp"
+        android:textColor="#3F3E40"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/btn_to_Activity_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="@string/button2"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="18sp" />
+</LinearLayout>
